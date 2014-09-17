@@ -17,7 +17,7 @@ Public Class Form1
         ElseIf num2 > num1 Then
             largerNum = (num2)
 
-        Else : txtResult.Text = "Both Numbers are equal"
+        Else : txtResult.Text = "Both Nmbers are equal"
         End If
 
         txtResult.Text = "The Larger number is " & CStr(largerNum)
